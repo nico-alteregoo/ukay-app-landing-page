@@ -32,7 +32,6 @@ export function Figure({ src, alt, className, eager = false }: FigureProps) {
       src={src}
       alt={alt}
       loading={eager ? "eager" : "lazy"}
-      fetchPriority={eager ? "high" : "auto"}
       onError={() => setFailed(true)}
       className={cn("h-full w-full object-cover", className)}
     />

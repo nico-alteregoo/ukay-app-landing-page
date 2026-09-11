@@ -26,12 +26,12 @@ const img = (id: string, w = 900) =>
 
 export const heroAuction: Auction = {
   id: "hero-levis",
-  title: "Levi's 501, mid-wash",
+  title: "Levi's trucker jacket",
   brand: "Levi's",
-  detail: "32x30 · straight leg",
+  detail: "Women's M · stonewash",
   city: "Baguio City",
-  image: img("1714143136372-ddaf8b606da7"),
-  alt: "Folded medium-wash Levi's 501 jeans, laid flat and ready to ship",
+  image: img("1546961329-78bef0414d7c"),
+  alt: "Woman smiling while wearing a secondhand denim jacket",
   startingBid: 600,
   currentBid: 1250,
   bidCount: 14,
